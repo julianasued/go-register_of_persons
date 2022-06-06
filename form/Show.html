@@ -26,14 +26,14 @@
                                 <label for="username" class="form-label">Usuario</label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text">@</span>
-                                    <input type="text" class="form-control" placeholder="Username" disabled="">
+                                    <input type="text" class="form-control" placeholder="{{ .Username }}" disabled="">
                                 </div>
                             </div>
 
                             <div class="col-12">
                                 <label for="email" class="form-label">Email <span
                                         class="text-muted">(Optional)</span></label>
-                                <input type="email" class="form-control" placeholder="you@example.com" disabled="">
+                                <input type="email" class="form-control" placeholder="{{ .Email }}" disabled="">
                             </div>
 
                             <div class="col-12">

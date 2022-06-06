@@ -10,8 +10,10 @@
             <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">City</th>
-            <th scope="col">View</th>
-            <th scope="col">Edit</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Detalhes</th>
+            <th scope="col">Editar</th>
             <th scope="col">Delete</th>
 
           </tr>
@@ -23,9 +25,11 @@
             <td>{{ .Id }}</td>
             <td>{{ .Name }}</td>
             <td>{{ .City }}</td>
-            <td><a href="/show?id={{ .Id }}">View</a></td>
-            <td><a href="/edit?id={{ .Id }}">Edit</a></td>
-            <td><a href="/delete?id={{ .Id }}">Delete</a></td>
+            <td>{{ .Username }}</td>
+            <td>{{ .Email }}</td>
+            <td><a href="/show?id={{ .Id }}" class="btn btn-info btn-sm"><i class="bi bi-box-arrow-up-right"></i></a></td>
+            <td><a href="/edit?id={{ .Id }}" class="btn btn-warning btn-sm"><i class="bi bi-pencil-square"></i></a></td>
+            <td><a href="/delete?id={{ .Id }}" class="btn btn-danger btn-sm"><i class="bi bi-x-lg"></i></a></td>
           </tr>
           <tr>
             {{ end }}
