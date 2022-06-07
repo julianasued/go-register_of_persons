@@ -21,7 +21,7 @@ Tela de Cadastro
 </h1>
 Cadastro Salvo
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastrado" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastrado.png" />
 </h1>
 Detalhes
 <h1 align="center">
@@ -32,9 +32,11 @@ Editar
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/editar.png" />
 </h1>
 
+<h1 align="center">
 <video width="320" height="240" controls>
   <source src="./assets/video.mkv" type="video/mp4">
 </video>
+</h1>
 
 ### Rodando o Back End (servidor)
 
@@ -57,13 +59,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Banco de dados
 Foi utilizado banco de dados MySQL
 Campos:
-<br>
     Id    int
-<br>
     Name  string
- <br>
     City string
- <br>
     Username string
- <br>
     Email string
