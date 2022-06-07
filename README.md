@@ -32,12 +32,6 @@ Editar
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/editar.png" />
 </h1>
 
-<h1 align="center">
-<video width="320" height="240" controls>
-  <source src="./assets/video.mkv" type="video/mp4">
-</video>
-</h1>
-
 ### Rodando o Back End (servidor)
 
 ### Execute as migrações do banco
