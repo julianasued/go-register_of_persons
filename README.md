@@ -13,23 +13,23 @@
 
 Tela Inicial
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home.jpeg" />
 </h1>
 Tela de Cadastro
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastro.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastro.jpeg" />
 </h1>
 Cadastro Salvo
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastrado.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/cadastrado.jpeg" />
 </h1>
 Detalhes
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes.jpeg" />
 </h1>
 Editar
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/editar.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/editar.jpeg" />
 </h1>
 
 ### Rodando o Back End (servidor)
