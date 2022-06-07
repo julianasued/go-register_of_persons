@@ -32,18 +32,17 @@ Editar
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/editar.png" />
 </h1>
 
-<iframe style="border-radius: 20px;" width="100%" height="315" src="./assets/video.mkv"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<video width="320" height="240" controls>
+  <source src="./assets/video.mkv" type="video/mp4">
+</video>
 
 ### Rodando o Back End (servidor)
 
-# Clone este repositório
+### Execute as migrações do banco
 
-# Execute as migrações do banco
+Disponivel no arquivo banco.sql
 
-# Execute a aplicação
+### Execute a aplicação
 go run main.go
 
 # Para o servidor inciar acesse: <http://localhost:8080/>
@@ -58,8 +57,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Banco de dados
 Foi utilizado banco de dados MySQL
 Campos:
+<br>
     Id    int
+<br>
     Name  string
+ <br>
     City string
+ <br>
     Username string
+ <br>
     Email string
